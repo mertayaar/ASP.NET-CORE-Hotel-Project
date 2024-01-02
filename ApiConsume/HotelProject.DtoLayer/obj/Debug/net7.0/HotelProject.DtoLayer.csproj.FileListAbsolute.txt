@@ -1,0 +1,17 @@
+/Users/mertayaar/Projects/HotelProject/ApiConsume/HotelProject.DtoLayer/bin/Debug/net7.0/HotelProject.DtoLayer.deps.json
+/Users/mertayaar/Projects/HotelProject/ApiConsume/HotelProject.DtoLayer/bin/Debug/net7.0/HotelProject.DtoLayer.runtimeconfig.json
+/Users/mertayaar/Projects/HotelProject/ApiConsume/HotelProject.DtoLayer/bin/Debug/net7.0/HotelProject.DtoLayer.dll
+/Users/mertayaar/Projects/HotelProject/ApiConsume/HotelProject.DtoLayer/bin/Debug/net7.0/HotelProject.DtoLayer.pdb
+/Users/mertayaar/Projects/HotelProject/ApiConsume/HotelProject.DtoLayer/bin/Debug/net7.0/HotelProject.EntityLayer.dll
+/Users/mertayaar/Projects/HotelProject/ApiConsume/HotelProject.DtoLayer/bin/Debug/net7.0/HotelProject.EntityLayer.pdb
+/Users/mertayaar/Projects/HotelProject/ApiConsume/HotelProject.DtoLayer/obj/Debug/net7.0/HotelProject.DtoLayer.csproj.AssemblyReference.cache
+/Users/mertayaar/Projects/HotelProject/ApiConsume/HotelProject.DtoLayer/obj/Debug/net7.0/HotelProject.DtoLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mertayaar/Projects/HotelProject/ApiConsume/HotelProject.DtoLayer/obj/Debug/net7.0/HotelProject.DtoLayer.AssemblyInfoInputs.cache
+/Users/mertayaar/Projects/HotelProject/ApiConsume/HotelProject.DtoLayer/obj/Debug/net7.0/HotelProject.DtoLayer.AssemblyInfo.cs
+/Users/mertayaar/Projects/HotelProject/ApiConsume/HotelProject.DtoLayer/obj/Debug/net7.0/HotelProject.DtoLayer.csproj.CoreCompileInputs.cache
+/Users/mertayaar/Projects/HotelProject/ApiConsume/HotelProject.DtoLayer/obj/Debug/net7.0/HotelProject.DtoLayer.csproj.CopyComplete
+/Users/mertayaar/Projects/HotelProject/ApiConsume/HotelProject.DtoLayer/obj/Debug/net7.0/HotelProject.DtoLayer.dll
+/Users/mertayaar/Projects/HotelProject/ApiConsume/HotelProject.DtoLayer/obj/Debug/net7.0/refint/HotelProject.DtoLayer.dll
+/Users/mertayaar/Projects/HotelProject/ApiConsume/HotelProject.DtoLayer/obj/Debug/net7.0/HotelProject.DtoLayer.pdb
+/Users/mertayaar/Projects/HotelProject/ApiConsume/HotelProject.DtoLayer/obj/Debug/net7.0/HotelProject.DtoLayer.genruntimeconfig.cache
+/Users/mertayaar/Projects/HotelProject/ApiConsume/HotelProject.DtoLayer/obj/Debug/net7.0/ref/HotelProject.DtoLayer.dll
