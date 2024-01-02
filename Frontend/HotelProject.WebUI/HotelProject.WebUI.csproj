@@ -18,5 +18,26 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.11" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Views\AdminLayout\" />
+    <None Remove="Views\Staff\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\AdminLayout\" />
+    <Folder Include="Views\Staff\" />
+    <Folder Include="wwwroot\Template\" />
+    <Folder Include="wwwroot\Template\js\" />
+    <Folder Include="wwwroot\Template\css\" />
+    <Folder Include="wwwroot\Template\icons\" />
+    <Folder Include="wwwroot\Template\images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\Template\" />
+    <Content Remove="wwwroot\Template\js\" />
+    <Content Remove="wwwroot\Template\css\" />
+    <Content Remove="wwwroot\Template\icons\" />
+    <Content Remove="wwwroot\Template\images\" />
   </ItemGroup>
 </Project>
