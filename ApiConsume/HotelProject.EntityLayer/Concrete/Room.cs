@@ -7,7 +7,7 @@ namespace HotelProject.EntityLayer.Concrete
     {
 
         [Key]
-        public int RoomID { get; set; }
+        public required int RoomID { get; set; }
 
         public required string RoomNumber { get; set; }
 

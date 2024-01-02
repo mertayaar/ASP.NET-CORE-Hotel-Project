@@ -6,7 +6,7 @@ namespace HotelProject.EntityLayer.Concrete
 	public class Testimonial
 	{
         [Key]
-        public int TestimonialID { get; set; }
+        public required int TestimonialID { get; set; }
 
         public required string Name { get; set; }
 

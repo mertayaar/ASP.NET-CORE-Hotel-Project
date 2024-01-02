@@ -6,7 +6,7 @@ namespace HotelProject.EntityLayer.Concrete
 	public class Staff
 	{
         [Key]
-        public int StaffID { get; set; }
+        public required int StaffID { get; set; }
 
         public required string Name { get; set; }
 
