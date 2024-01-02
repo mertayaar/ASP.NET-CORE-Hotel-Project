@@ -17,6 +17,7 @@ namespace HotelProject.DataAccessLayer.Repositories
         public void Delete(T t)
         {
             _context.Remove(t);
+            _context.SaveChanges();
         }
 
         public T? GetByID(int id)
