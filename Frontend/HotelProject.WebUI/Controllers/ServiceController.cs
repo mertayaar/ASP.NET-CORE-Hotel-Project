@@ -19,6 +19,14 @@ namespace HotelProject.WebUI.Controllers
             _httpClientFactory = httpClientFactory;
         }
 
+  
+
+        [HttpGet]
+        public IActionResult AddService()
+        {
+            return View();
+        }
+
         public async Task<IActionResult> Index()
         {
 
@@ -35,12 +43,6 @@ namespace HotelProject.WebUI.Controllers
 
                 return View();
             }
-        }
-
-        [HttpGet]
-        public IActionResult AddService()
-        {
-            return View();
         }
 
         [HttpPost]
