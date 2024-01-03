@@ -19,11 +19,21 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.11" />
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.0" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Views\AdminLayout\" />
     <None Remove="Views\Staff\" />
     <None Remove="Models\Staff\" />
+    <None Remove="Models\Testimonial\" />
+    <None Remove="Views\Testimonial\" />
+    <None Remove="Dtos\" />
+    <None Remove="Dtos\ServiceDto\" />
+    <None Remove="Mapping\" />
+    <None Remove="Views\Service\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\AdminLayout\" />
@@ -34,6 +44,12 @@
     <Folder Include="wwwroot\Template\icons\" />
     <Folder Include="wwwroot\Template\images\" />
     <Folder Include="Models\Staff\" />
+    <Folder Include="Models\Testimonial\" />
+    <Folder Include="Views\Testimonial\" />
+    <Folder Include="Dtos\" />
+    <Folder Include="Dtos\ServiceDto\" />
+    <Folder Include="Mapping\" />
+    <Folder Include="Views\Service\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\Template\" />
@@ -41,5 +57,10 @@
     <Content Remove="wwwroot\Template\css\" />
     <Content Remove="wwwroot\Template\icons\" />
     <Content Remove="wwwroot\Template\images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ApiConsume\HotelProject.EntityLayer\HotelProject.EntityLayer.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
 </Project>
