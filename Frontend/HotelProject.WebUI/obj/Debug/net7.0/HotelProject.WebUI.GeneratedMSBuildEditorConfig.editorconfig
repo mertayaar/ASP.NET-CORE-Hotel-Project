@@ -48,6 +48,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5MYXlvdXQvX0FkbWluTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/Views/Default/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVmYXVsdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -74,6 +78,62 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/Views/Service/UpdateService.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2VydmljZS9VcGRhdGVTZXJ2aWNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/Views/Shared/Components/_AboutUsPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0Fib3V0VXNQYXJ0aWFsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/Views/Shared/Components/_BookingPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0Jvb2tpbmdQYXJ0aWFsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/Views/Shared/Components/_FooterPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0Zvb3RlclBhcnRpYWwvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/Views/Shared/Components/_HeadPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0hlYWRQYXJ0aWFsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/Views/Shared/Components/_NavbarPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX05hdmJhclBhcnRpYWwvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/Views/Shared/Components/_OurRoomsPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX091clJvb21zUGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/Views/Shared/Components/_ScriptPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1NjcmlwdFBhcnRpYWwvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/Views/Shared/Components/_ServicePartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1NlcnZpY2VQYXJ0aWFsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/Views/Shared/Components/_SliderPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1NsaWRlclBhcnRpYWwvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/Views/Shared/Components/_SpinnerPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1NwaW5uZXJQYXJ0aWFsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/Views/Shared/Components/_SubscribePartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1N1YnNjcmliZVBhcnRpYWwvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/Views/Shared/Components/_TeamPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1RlYW1QYXJ0aWFsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/Views/Shared/Components/_TestimonialPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1Rlc3RpbW9uaWFsUGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/Views/Shared/Components/_TrailerPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1RyYWlsZXJQYXJ0aWFsL0RlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/Views/Shared/Error.cshtml]

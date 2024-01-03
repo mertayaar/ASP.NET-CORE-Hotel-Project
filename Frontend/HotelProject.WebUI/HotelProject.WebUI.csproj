@@ -38,15 +38,29 @@
     <None Remove="Views\Register\" />
     <None Remove="Dtos\LoginDto\" />
     <None Remove="Views\Login\" />
+    <None Remove="Views\Default\" />
+    <None Remove="ViewComponents\" />
+    <None Remove="ViewComponents\Default\" />
+    <None Remove="Views\Shared\Components\" />
+    <None Remove="Views\Shared\Components\_HeadPartial\" />
+    <None Remove="Views\Shared\Components\_ScriptPartial\" />
+    <None Remove="Views\Shared\Components\_SpinnerPartial\" />
+    <None Remove="Views\Shared\Components\_NavbarPartial\" />
+    <None Remove="Views\Shared\Components\_SliderPartial\" />
+    <None Remove="Views\Shared\Components\_BookingPartial\" />
+    <None Remove="Views\Shared\Components\_AboutUsPartial\" />
+    <None Remove="Views\Shared\Components\_OurRoomsPartial\" />
+    <None Remove="Views\Shared\Components\_TrailerPartial\" />
+    <None Remove="Views\Shared\Components\_ServicePartial\" />
+    <None Remove="Views\Shared\Components\_TestimonialPartial\" />
+    <None Remove="Views\Shared\Components\_TeamPartial\" />
+    <None Remove="Views\Shared\Components\_SubscribePartial\" />
+    <None Remove="Views\Shared\Components\_FooterPartial\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\AdminLayout\" />
     <Folder Include="Views\Staff\" />
     <Folder Include="wwwroot\Template\" />
-    <Folder Include="wwwroot\Template\js\" />
-    <Folder Include="wwwroot\Template\css\" />
-    <Folder Include="wwwroot\Template\icons\" />
-    <Folder Include="wwwroot\Template\images\" />
     <Folder Include="Models\Staff\" />
     <Folder Include="Models\Testimonial\" />
     <Folder Include="Views\Testimonial\" />
@@ -58,13 +72,27 @@
     <Folder Include="Views\Register\" />
     <Folder Include="Dtos\LoginDto\" />
     <Folder Include="Views\Login\" />
+    <Folder Include="Views\Default\" />
+    <Folder Include="ViewComponents\" />
+    <Folder Include="ViewComponents\Default\" />
+    <Folder Include="Views\Shared\Components\" />
+    <Folder Include="Views\Shared\Components\_HeadPartial\" />
+    <Folder Include="Views\Shared\Components\_ScriptPartial\" />
+    <Folder Include="Views\Shared\Components\_SpinnerPartial\" />
+    <Folder Include="Views\Shared\Components\_NavbarPartial\" />
+    <Folder Include="Views\Shared\Components\_SliderPartial\" />
+    <Folder Include="Views\Shared\Components\_BookingPartial\" />
+    <Folder Include="Views\Shared\Components\_AboutUsPartial\" />
+    <Folder Include="Views\Shared\Components\_OurRoomsPartial\" />
+    <Folder Include="Views\Shared\Components\_TrailerPartial\" />
+    <Folder Include="Views\Shared\Components\_ServicePartial\" />
+    <Folder Include="Views\Shared\Components\_TestimonialPartial\" />
+    <Folder Include="Views\Shared\Components\_TeamPartial\" />
+    <Folder Include="Views\Shared\Components\_SubscribePartial\" />
+    <Folder Include="Views\Shared\Components\_FooterPartial\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\Template\" />
-    <Content Remove="wwwroot\Template\js\" />
-    <Content Remove="wwwroot\Template\css\" />
-    <Content Remove="wwwroot\Template\icons\" />
-    <Content Remove="wwwroot\Template\images\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\ApiConsume\HotelProject.EntityLayer\HotelProject.EntityLayer.csproj">
