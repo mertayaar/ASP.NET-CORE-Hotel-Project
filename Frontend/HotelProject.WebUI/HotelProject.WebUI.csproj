@@ -34,6 +34,10 @@
     <None Remove="Dtos\ServiceDto\" />
     <None Remove="Mapping\" />
     <None Remove="Views\Service\" />
+    <None Remove="Dtos\RegisterDto\" />
+    <None Remove="Views\Register\" />
+    <None Remove="Dtos\LoginDto\" />
+    <None Remove="Views\Login\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\AdminLayout\" />
@@ -50,6 +54,10 @@
     <Folder Include="Dtos\ServiceDto\" />
     <Folder Include="Mapping\" />
     <Folder Include="Views\Service\" />
+    <Folder Include="Dtos\RegisterDto\" />
+    <Folder Include="Views\Register\" />
+    <Folder Include="Dtos\LoginDto\" />
+    <Folder Include="Views\Login\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\Template\" />
@@ -60,6 +68,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\ApiConsume\HotelProject.EntityLayer\HotelProject.EntityLayer.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ApiConsume\HotelProject.DataAccessLayer\HotelProject.DataAccessLayer.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
   </ItemGroup>

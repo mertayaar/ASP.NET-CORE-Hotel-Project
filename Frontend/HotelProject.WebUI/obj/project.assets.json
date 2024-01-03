@@ -4148,6 +4148,23 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "HotelProject.DataAccessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "HotelProject.EntityLayer": "1.0.0",
+          "Microsoft.AspNetCore.Identity": "2.2.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.0",
+          "MySql.EntityFrameworkCore": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HotelProject.DataAccessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HotelProject.DataAccessLayer.dll": {}
+        }
+      },
       "HotelProject.EntityLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -11705,6 +11722,11 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "HotelProject.DataAccessLayer/1.0.0": {
+      "type": "project",
+      "path": "../../ApiConsume/HotelProject.DataAccessLayer/HotelProject.DataAccessLayer.csproj",
+      "msbuildProject": "../../ApiConsume/HotelProject.DataAccessLayer/HotelProject.DataAccessLayer.csproj"
+    },
     "HotelProject.EntityLayer/1.0.0": {
       "type": "project",
       "path": "../../ApiConsume/HotelProject.EntityLayer/HotelProject.EntityLayer.csproj",
@@ -11715,6 +11737,7 @@
     "net7.0": [
       "AutoMapper >= 12.0.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
+      "HotelProject.DataAccessLayer >= 1.0.0",
       "HotelProject.EntityLayer >= 1.0.0",
       "Microsoft.AspNetCore.Identity >= 2.2.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.0",
@@ -11751,6 +11774,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "/Users/mertayaar/Projects/HotelProject/ApiConsume/HotelProject.DataAccessLayer/HotelProject.DataAccessLayer.csproj": {
+              "projectPath": "/Users/mertayaar/Projects/HotelProject/ApiConsume/HotelProject.DataAccessLayer/HotelProject.DataAccessLayer.csproj"
+            },
             "/Users/mertayaar/Projects/HotelProject/ApiConsume/HotelProject.EntityLayer/HotelProject.EntityLayer.csproj": {
               "projectPath": "/Users/mertayaar/Projects/HotelProject/ApiConsume/HotelProject.EntityLayer/HotelProject.EntityLayer.csproj"
             }

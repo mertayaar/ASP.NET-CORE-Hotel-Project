@@ -245,3 +245,6 @@
 /Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 /Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/bin/Debug/net7.0/HotelProject.EntityLayer.dll
 /Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/bin/Debug/net7.0/HotelProject.EntityLayer.pdb
+/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/bin/Debug/net7.0/HotelProject.DataAccessLayer.dll
+/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/bin/Debug/net7.0/HotelProject.DataAccessLayer.pdb
