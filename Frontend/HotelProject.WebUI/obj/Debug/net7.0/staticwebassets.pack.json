@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/Template/.DS_Store"
     },
     {
+      "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/Template/css/.DS_Store",
+      "PackagePath": "staticwebassets/Template/css/.DS_Store"
+    },
+    {
       "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/Template/css/style.css",
       "PackagePath": "staticwebassets/Template/css/style.css"
     },
@@ -1907,6 +1911,10 @@
     {
       "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/Template/images/users/profile.jpg",
       "PackagePath": "staticwebassets/Template/images/users/profile.jpg"
+    },
+    {
+      "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/Template/js/.DS_Store",
+      "PackagePath": "staticwebassets/Template/js/.DS_Store"
     },
     {
       "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/Template/js/custom.min.js",
@@ -20621,6 +20629,10 @@
       "PackagePath": "staticwebassets/Template/plugins/xml/plugin.js"
     },
     {
+      "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/adminweb/.DS_Store",
+      "PackagePath": "staticwebassets/adminweb/.DS_Store"
+    },
+    {
       "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/adminweb/app-calender.html",
       "PackagePath": "staticwebassets/adminweb/app-calender.html"
     },
@@ -22927,6 +22939,18 @@
     {
       "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/adminweb/js/styleSwitcher.js",
       "PackagePath": "staticwebassets/adminweb/js/styleSwitcher.js"
+    },
+    {
+      "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/adminweb/js/typeahead.bundle.min.js",
+      "PackagePath": "staticwebassets/adminweb/js/typeahead.bundle.min.js"
+    },
+    {
+      "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/adminweb/js/typeahead.js",
+      "PackagePath": "staticwebassets/adminweb/js/typeahead.js"
+    },
+    {
+      "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/adminweb/js/vendor.bundle.base.js",
+      "PackagePath": "staticwebassets/adminweb/js/vendor.bundle.base.js"
     },
     {
       "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/adminweb/layout-blank.html",
