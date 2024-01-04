@@ -21,7 +21,7 @@ namespace HotelProject.DataAccessLayer.Migrations
 
             modelBuilder.Entity("HotelProject.EntityLayer.Concrete.About", b =>
                 {
-                    b.Property<int>("AboutID")
+                    b.Property<int>("AboutUsID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
@@ -46,7 +46,7 @@ namespace HotelProject.DataAccessLayer.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.HasKey("AboutID");
+                    b.HasKey("AboutUsID");
 
                     b.ToTable("Abouts");
                 });
@@ -181,13 +181,15 @@ namespace HotelProject.DataAccessLayer.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
+                    b.Property<int>("Stars")
+                        .HasColumnType("int");
+
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<string>("Wifi")
-                        .IsRequired()
-                        .HasColumnType("longtext");
+                    b.Property<bool>("Wifi")
+                        .HasColumnType("tinyint(1)");
 
                     b.HasKey("RoomID");
 

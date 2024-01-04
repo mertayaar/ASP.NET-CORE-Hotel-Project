@@ -42081,6 +42081,18 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/images/room/room-1.jpg",
+      "PackagePath": "staticwebassets/images/room/room-1.jpg"
+    },
+    {
+      "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/images/room/room-2.jpg",
+      "PackagePath": "staticwebassets/images/room/room-2.jpg"
+    },
+    {
+      "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/images/room/room-3.jpg",
+      "PackagePath": "staticwebassets/images/room/room-3.jpg"
+    },
+    {
       "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

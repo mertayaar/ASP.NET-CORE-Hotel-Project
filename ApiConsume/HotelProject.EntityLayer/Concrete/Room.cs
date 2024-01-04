@@ -21,7 +21,8 @@ namespace HotelProject.EntityLayer.Concrete
 
         public required string BathCount { get; set; }
 
-        public required string Wifi { get; set; }
+        public required bool Wifi { get; set; }
+        public required int Stars { get; set; }
 
         public required string Description { get; set; }
     }
