@@ -58,6 +58,7 @@
     <None Remove="Views\Shared\Components\_FooterPartial\" />
     <None Remove="Dtos\AboutDto\" />
     <None Remove="Dtos\RoomDto\" />
+    <None Remove="Dtos\TestimonialDto\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\AdminLayout\" />
@@ -96,11 +97,14 @@
     <Folder Include="Dtos\RoomDto\" />
     <Folder Include="wwwroot\images\" />
     <Folder Include="wwwroot\images\room\" />
+    <Folder Include="Dtos\TestimonialDto\" />
+    <Folder Include="wwwroot\images\testimonial\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\Template\" />
     <Content Remove="wwwroot\images\" />
     <Content Remove="wwwroot\images\room\" />
+    <Content Remove="wwwroot\images\testimonial\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\ApiConsume\HotelProject.EntityLayer\HotelProject.EntityLayer.csproj">

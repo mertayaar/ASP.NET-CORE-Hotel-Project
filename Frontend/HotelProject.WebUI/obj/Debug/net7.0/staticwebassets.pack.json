@@ -42093,6 +42093,22 @@
       "PackagePath": "staticwebassets/images/room/room-3.jpg"
     },
     {
+      "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/images/testimonial/testimonial-1.jpg",
+      "PackagePath": "staticwebassets/images/testimonial/testimonial-1.jpg"
+    },
+    {
+      "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/images/testimonial/testimonial-2.jpg",
+      "PackagePath": "staticwebassets/images/testimonial/testimonial-2.jpg"
+    },
+    {
+      "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/images/testimonial/testimonial-3.jpg",
+      "PackagePath": "staticwebassets/images/testimonial/testimonial-3.jpg"
+    },
+    {
+      "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/images/testimonial/testimonial-4.jpg",
+      "PackagePath": "staticwebassets/images/testimonial/testimonial-4.jpg"
+    },
+    {
       "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
