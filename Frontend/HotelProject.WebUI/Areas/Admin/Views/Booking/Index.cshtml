@@ -1,0 +1,59 @@
+@model List<ResultBookingDto>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/AdminLayout/_AdminLayout.cshtml";
+    int count = 0;
+}
+
+
+        <div class="card-body">
+            <div class="card-title">
+                <h4>Table Basic</h4>
+            </div>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Guest</th>
+                            <th>Checkin</th>
+                            <th>Checkout</th>
+                            <th>Status</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                                count++;
+                            <tr>
+                                <th>@item.BookingID</th>
+                                <td>@item.Name</td>
+                                <td>@(((DateTime)item.Checkin).ToString("MM-dd-yyyy"))</td>
+                                <td>@(((DateTime)item.CheckOut).ToString("MM-dd-yyyy"))</td>
+                                <td>
+                                    <span class="badge badge-primary px-2">@item.Status</span>
+                                </td>
+                                <td>
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: #007BFF; color: #fff;">
+                                            Actions
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item hover-bg-text" href="#" onmouseover="this.style.backgroundColor = '#007BFF'; this.style.color = '#fff';" onmouseout="this.style.backgroundColor='transparent'; this.style.color = '#007BFF'" style="background-color: transparent; color: #007BFF;">Details</a>
+                                            <a class="dropdown-item hover-bg-text" href="@Url.Action("ApprovedReservation", "Booking", new { id = item.BookingID })" onmouseover="this.style.backgroundColor='#28A745'; this.style.color = '#fff'" onmouseout="this.style.backgroundColor='transparent';this.style.color = '#28A745'" style="background-color: transparent; color: #28A745;">Accept</a>
+                                            <a class="dropdown-item hover-bg-text" href="#" onmouseover="this.style.backgroundColor='#ffc107'; this.style.color = '#fff'" onmouseout="this.style.backgroundColor='transparent';this.style.color = '#ffc107'" style="background-color: transparent; color: #ffc107; ">Hold</a>
+                                            <a class="dropdown-item hover-bg-text" href="#" onmouseover="this.style.backgroundColor='#007BFF'; this.style.color = '#fff'" onmouseout="this.style.backgroundColor='transparent';this.style.color = '#007BFF'" style="background-color: transparent; color: #007BFF;">Update</a>
+                                            <a class="dropdown-item hover-bg-text" href="#" onmouseover="this.style.backgroundColor='#DC3545'; this.style.color = '#fff'" onmouseout="this.style.backgroundColor='transparent';this.style.color = '#DC3545'" style="background-color: transparent; color: #DC3545;">Cancel Reservation</a>
+                                        </div>
+                                    </div>
+                                </td>
+
+                            </tr>
+                        }
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>

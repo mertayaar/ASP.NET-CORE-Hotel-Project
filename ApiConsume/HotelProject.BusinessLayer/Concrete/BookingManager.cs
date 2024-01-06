@@ -5,13 +5,18 @@ using HotelProject.EntityLayer.Concrete;
 
 namespace HotelProject.BusinessLayer.Concrete
 {
-    public class BookingManager : IBookingService
+    public class BookingManager : IBookingDalService
 	{
         private readonly IBookingDal _bookingDal;
 
         public BookingManager(IBookingDal bookingDal)
         {
             _bookingDal = bookingDal;
+        }
+
+        public void TBookingStatusChangedToApproved(int id)
+        {
+            _bookingDal.BookingStatusChangedToApproved(id);
         }
 
         public void TDelete(Booking? t)

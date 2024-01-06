@@ -72,6 +72,8 @@
     <None Remove="ViewComponents\Booking\" />
     <None Remove="Views\Shared\Components\_BookingCoverPartial\" />
     <None Remove="Dtos\BookingDto\" />
+    <None Remove="Areas\Admin\Views\Booking\" />
+    <None Remove="Areas\Admin\Dtos\BookingDto\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\Template\" />
@@ -129,6 +131,8 @@
     <Folder Include="ViewComponents\Booking\" />
     <Folder Include="Views\Shared\Components\_BookingCoverPartial\" />
     <Folder Include="Dtos\BookingDto\" />
+    <Folder Include="Areas\Admin\Views\Booking\" />
+    <Folder Include="Areas\Admin\Dtos\BookingDto\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\Template\" />

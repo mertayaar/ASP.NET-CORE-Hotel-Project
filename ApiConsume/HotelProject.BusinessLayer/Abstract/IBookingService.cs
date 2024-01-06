@@ -3,8 +3,11 @@ using HotelProject.EntityLayer.Concrete;
 
 namespace HotelProject.BusinessLayer.Abstract
 {
-	public interface IBookingService : IGenericService<Booking>
+	public interface IBookingDalService : IGenericService<Booking>
 	{
-	}
+        void TBookingStatusChangedToApproved(int id);
+
+    }
 }
 
+ 
