@@ -1,0 +1,8 @@
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_HotelLayout.cshtml";
+}
+
+@await Component.InvokeAsync("_BookingCoverPartial")
+@await Component.InvokeAsync("_BookingPartial")
+@await Html.PartialAsync("_AddBooking")

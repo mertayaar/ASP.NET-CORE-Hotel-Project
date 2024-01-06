@@ -9,7 +9,6 @@ builder.Services.AddHttpClient();
 builder.Services.AddDbContext<Context>();
 builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>();
 builder.Services.AddAutoMapper(typeof(Program));
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -26,6 +25,10 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.MapControllerRoute(
+    name: "areas",
+    pattern: "{area:exists}/{controller=Default}/{action=Index}/{id?}");
 
 app.Run();
 

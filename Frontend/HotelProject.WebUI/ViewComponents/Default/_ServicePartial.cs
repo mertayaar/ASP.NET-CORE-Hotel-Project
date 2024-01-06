@@ -1,5 +1,5 @@
 ﻿using System;
-using HotelProject.WebUI.Dtos.ServiceDto;
+using HotelProject.WebUI.Areas.Admin.Dtos.ServiceDto;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 

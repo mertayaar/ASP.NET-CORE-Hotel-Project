@@ -42081,6 +42081,30 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/images/about/about-1.jpg",
+      "PackagePath": "staticwebassets/images/about/about-1.jpg"
+    },
+    {
+      "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/images/about/about-2.jpg",
+      "PackagePath": "staticwebassets/images/about/about-2.jpg"
+    },
+    {
+      "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/images/about/about-3.jpg",
+      "PackagePath": "staticwebassets/images/about/about-3.jpg"
+    },
+    {
+      "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/images/about/about-4.jpg",
+      "PackagePath": "staticwebassets/images/about/about-4.jpg"
+    },
+    {
+      "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/images/carousel/carousel-1.jpg",
+      "PackagePath": "staticwebassets/images/carousel/carousel-1.jpg"
+    },
+    {
+      "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/images/carousel/carousel-2.jpg",
+      "PackagePath": "staticwebassets/images/carousel/carousel-2.jpg"
+    },
+    {
       "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/images/room/room-1.jpg",
       "PackagePath": "staticwebassets/images/room/room-1.jpg"
     },

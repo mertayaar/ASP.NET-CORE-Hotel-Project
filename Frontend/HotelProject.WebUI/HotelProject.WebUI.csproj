@@ -25,22 +25,14 @@
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.0" />
   </ItemGroup>
   <ItemGroup>
-    <None Remove="Views\AdminLayout\" />
-    <None Remove="Views\Staff\" />
-    <None Remove="Models\Staff\" />
-    <None Remove="Models\Testimonial\" />
-    <None Remove="Views\Testimonial\" />
     <None Remove="Dtos\" />
-    <None Remove="Dtos\ServiceDto\" />
     <None Remove="Mapping\" />
-    <None Remove="Views\Service\" />
     <None Remove="Dtos\RegisterDto\" />
     <None Remove="Views\Register\" />
     <None Remove="Dtos\LoginDto\" />
     <None Remove="Views\Login\" />
     <None Remove="Views\Default\" />
     <None Remove="ViewComponents\" />
-    <None Remove="ViewComponents\Default\" />
     <None Remove="Views\Shared\Components\" />
     <None Remove="Views\Shared\Components\_HeadPartial\" />
     <None Remove="Views\Shared\Components\_ScriptPartial\" />
@@ -54,31 +46,43 @@
     <None Remove="Views\Shared\Components\_ServicePartial\" />
     <None Remove="Views\Shared\Components\_TestimonialPartial\" />
     <None Remove="Views\Shared\Components\_TeamPartial\" />
-    <None Remove="Views\Shared\Components\_SubscribePartial\" />
     <None Remove="Views\Shared\Components\_FooterPartial\" />
     <None Remove="Dtos\AboutDto\" />
     <None Remove="Dtos\RoomDto\" />
     <None Remove="Dtos\TestimonialDto\" />
     <None Remove="Dtos\StaffDto\" />
+    <None Remove="Dtos\SubscribeDto\" />
+    <None Remove="Views\Booking\" />
+    <None Remove="ViewComponents\Default\" />
+    <None Remove="Areas\" />
+    <None Remove="Areas\Admin\" />
+    <None Remove="Areas\Admin\Controllers\" />
+    <None Remove="Areas\Admin\Models\" />
+    <None Remove="Areas\Admin\ViewComponents\" />
+    <None Remove="Areas\Admin\Views\" />
+    <None Remove="Areas\Admin\Views\Shared\" />
+    <None Remove="Areas\Admin\Views\Service\" />
+    <None Remove="Areas\Admin\Dtos\" />
+    <None Remove="Areas\Admin\Models\Staff\" />
+    <None Remove="Areas\Admin\Models\Testimonial\" />
+    <None Remove="Areas\Admin\Dtos\ServiceDto\" />
+    <None Remove="Areas\Admin\Views\Staff\" />
+    <None Remove="Areas\Admin\Views\Testimonial\" />
+    <None Remove="Areas\Admin\Views\AdminLayout\" />
+    <None Remove="ViewComponents\Booking\" />
+    <None Remove="Views\Shared\Components\_BookingCoverPartial\" />
+    <None Remove="Dtos\BookingDto\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Views\AdminLayout\" />
-    <Folder Include="Views\Staff\" />
     <Folder Include="wwwroot\Template\" />
-    <Folder Include="Models\Staff\" />
-    <Folder Include="Models\Testimonial\" />
-    <Folder Include="Views\Testimonial\" />
     <Folder Include="Dtos\" />
-    <Folder Include="Dtos\ServiceDto\" />
     <Folder Include="Mapping\" />
-    <Folder Include="Views\Service\" />
     <Folder Include="Dtos\RegisterDto\" />
     <Folder Include="Views\Register\" />
     <Folder Include="Dtos\LoginDto\" />
     <Folder Include="Views\Login\" />
     <Folder Include="Views\Default\" />
     <Folder Include="ViewComponents\" />
-    <Folder Include="ViewComponents\Default\" />
     <Folder Include="Views\Shared\Components\" />
     <Folder Include="Views\Shared\Components\_HeadPartial\" />
     <Folder Include="Views\Shared\Components\_ScriptPartial\" />
@@ -92,7 +96,6 @@
     <Folder Include="Views\Shared\Components\_ServicePartial\" />
     <Folder Include="Views\Shared\Components\_TestimonialPartial\" />
     <Folder Include="Views\Shared\Components\_TeamPartial\" />
-    <Folder Include="Views\Shared\Components\_SubscribePartial\" />
     <Folder Include="Views\Shared\Components\_FooterPartial\" />
     <Folder Include="Dtos\AboutDto\" />
     <Folder Include="Dtos\RoomDto\" />
@@ -102,6 +105,30 @@
     <Folder Include="wwwroot\images\testimonial\" />
     <Folder Include="Dtos\StaffDto\" />
     <Folder Include="wwwroot\images\staff\" />
+    <Folder Include="Dtos\SubscribeDto\" />
+    <Folder Include="Views\Booking\" />
+    <Folder Include="ViewComponents\Default\" />
+    <Folder Include="Areas\" />
+    <Folder Include="Areas\Admin\" />
+    <Folder Include="Areas\Admin\Controllers\" />
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Admin\ViewComponents\" />
+    <Folder Include="Areas\Admin\Views\" />
+    <Folder Include="Areas\Admin\Views\Shared\" />
+    <Folder Include="Areas\Admin\Views\Service\" />
+    <Folder Include="Areas\Admin\Dtos\" />
+    <Folder Include="Areas\Admin\Models\Staff\" />
+    <Folder Include="Areas\Admin\Models\Testimonial\" />
+    <Folder Include="Areas\Admin\Dtos\ServiceDto\" />
+    <Folder Include="Areas\Admin\Views\Service\" />
+    <Folder Include="Areas\Admin\Views\Staff\" />
+    <Folder Include="Areas\Admin\Views\Testimonial\" />
+    <Folder Include="Areas\Admin\Views\AdminLayout\" />
+    <Folder Include="wwwroot\images\about\" />
+    <Folder Include="wwwroot\images\carousel\" />
+    <Folder Include="ViewComponents\Booking\" />
+    <Folder Include="Views\Shared\Components\_BookingCoverPartial\" />
+    <Folder Include="Dtos\BookingDto\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\Template\" />
@@ -109,6 +136,8 @@
     <Content Remove="wwwroot\images\room\" />
     <Content Remove="wwwroot\images\testimonial\" />
     <Content Remove="wwwroot\images\staff\" />
+    <Content Remove="wwwroot\images\about\" />
+    <Content Remove="wwwroot\images\carousel\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\ApiConsume\HotelProject.EntityLayer\HotelProject.EntityLayer.csproj">
