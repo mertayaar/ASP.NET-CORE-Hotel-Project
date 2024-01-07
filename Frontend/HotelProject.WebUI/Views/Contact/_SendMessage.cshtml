@@ -1,0 +1,41 @@
+@model CreateContactDto
+<div class="col-md-6">
+    <div class="wow fadeInUp" data-wow-delay="0.2s">
+        @using (Html.BeginForm("_SendMessage", "Contact", FormMethod.Post))
+        {
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" asp-for="Name" id="name" placeholder="Your Name" required>
+                        <label for="name">Your Name</label>
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <input type="email" class="form-control" asp-for="Mail" id="email" placeholder="Your Email" required>
+                        <label for="email">Your Email</label>
+                        <span asp-validation-for="Mail" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" asp-for="Subject" id="subject" placeholder="Subject" required>
+                        <label for="subject">Subject</label>
+                        <span asp-validation-for="Subject" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-floating">
+                        <textarea class="form-control" asp-for="Message" placeholder="Leave a message here" id="message" style="height: 150px" required></textarea>
+                        <label for="message">Message</label>
+                        <span asp-validation-for="Message" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                </div>
+            </div>
+    }
+    </div>
+    </div>

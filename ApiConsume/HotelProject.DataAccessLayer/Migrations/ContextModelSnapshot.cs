@@ -201,6 +201,59 @@ namespace HotelProject.DataAccessLayer.Migrations
                     b.ToTable("Bookings");
                 });
 
+            modelBuilder.Entity("HotelProject.EntityLayer.Concrete.Contact", b =>
+                {
+                    b.Property<int>("ContactID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("Mail")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Subject")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("ContactID");
+
+                    b.ToTable("Contacts");
+                });
+
+            modelBuilder.Entity("HotelProject.EntityLayer.Concrete.Guest", b =>
+                {
+                    b.Property<int>("GuestID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("City")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Surname")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("GuestID");
+
+                    b.ToTable("Guests");
+                });
+
             modelBuilder.Entity("HotelProject.EntityLayer.Concrete.Room", b =>
                 {
                     b.Property<int>("RoomID")

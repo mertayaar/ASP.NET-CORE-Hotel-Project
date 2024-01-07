@@ -12,6 +12,8 @@ tarballs/
 test-results/
 ToDo.txt
 frontend/HotelProject.WebUI/wwwroot/adminweb/
+/RapidApi
+/JWT
 # Mac bundle stuff
 *.dmg
 *.app

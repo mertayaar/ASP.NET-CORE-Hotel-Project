@@ -74,6 +74,10 @@
     <None Remove="Dtos\BookingDto\" />
     <None Remove="Areas\Admin\Views\Booking\" />
     <None Remove="Areas\Admin\Dtos\BookingDto\" />
+    <None Remove="Views\Contact\" />
+    <None Remove="ViewComponents\Contact\" />
+    <None Remove="Views\Shared\Components\_ContactCoverPartial\" />
+    <None Remove="Dtos\ContactDto\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\Template\" />
@@ -133,6 +137,10 @@
     <Folder Include="Dtos\BookingDto\" />
     <Folder Include="Areas\Admin\Views\Booking\" />
     <Folder Include="Areas\Admin\Dtos\BookingDto\" />
+    <Folder Include="Views\Contact\" />
+    <Folder Include="ViewComponents\Contact\" />
+    <Folder Include="Views\Shared\Components\_ContactCoverPartial\" />
+    <Folder Include="Dtos\ContactDto\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\Template\" />
