@@ -14,3 +14,4 @@
 - Login
 - Register
 - Fluent Validation
+- MySQL
