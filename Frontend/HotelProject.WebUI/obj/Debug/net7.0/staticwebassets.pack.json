@@ -17,8 +17,12 @@
       "PackagePath": "staticwebassets/Template/AdminTemplate/.DS_Store"
     },
     {
-      "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/Template/AdminTemplate/css/.DS_Store",
-      "PackagePath": "staticwebassets/Template/AdminTemplate/css/.DS_Store"
+      "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/Template/AdminTemplate/css/animate/animate.css",
+      "PackagePath": "staticwebassets/Template/AdminTemplate/css/animate/animate.css"
+    },
+    {
+      "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/Template/AdminTemplate/css/animate/animate.min.css",
+      "PackagePath": "staticwebassets/Template/AdminTemplate/css/animate/animate.min.css"
     },
     {
       "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/Template/AdminTemplate/css/style.css",
@@ -1919,6 +1923,10 @@
     {
       "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/Template/AdminTemplate/js/.DS_Store",
       "PackagePath": "staticwebassets/Template/AdminTemplate/js/.DS_Store"
+    },
+    {
+      "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/Template/AdminTemplate/js/counterup/counterup.min.js",
+      "PackagePath": "staticwebassets/Template/AdminTemplate/js/counterup/counterup.min.js"
     },
     {
       "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/Template/AdminTemplate/js/custom.min.js",

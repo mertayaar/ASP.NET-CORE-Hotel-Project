@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq.Expressions;
+
 namespace HotelProject.DataAccessLayer.Abstract
 {
     public interface IGenericDal<T> where T : class
@@ -8,6 +10,8 @@ namespace HotelProject.DataAccessLayer.Abstract
         void Update(T t);
         List<T>? GetList();
         T? GetByID(int id);
+
+        List<T> GetByFilter(Expression<Func<T, bool>> filter);
     }
 }
 

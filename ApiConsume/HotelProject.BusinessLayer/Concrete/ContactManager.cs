@@ -14,6 +14,16 @@ namespace HotelProject.BusinessLayer.Concrete
             _contactDal = contactDal;
         }
 
+        public List<Contact> GetListInbox(string p)
+        {
+            return _contactDal.GetByFilter(x => x.ReceiverMail == p);
+        }
+
+        public List<Contact> GetListOutbox(string p)
+        {
+            return _contactDal.GetByFilter(x => x.SenderMail == p);
+        }
+
         public void TDelete(Contact? t)
         {
             _contactDal.Delete(t);

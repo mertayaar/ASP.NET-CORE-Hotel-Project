@@ -210,15 +210,23 @@ namespace HotelProject.DataAccessLayer.Migrations
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<string>("Mail")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
                     b.Property<string>("Message")
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("ReceiverMail")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("ReceiverName")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("SenderMail")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("SenderName")
                         .IsRequired()
                         .HasColumnType("longtext");
 
@@ -296,6 +304,44 @@ namespace HotelProject.DataAccessLayer.Migrations
                     b.HasKey("RoomID");
 
                     b.ToTable("Rooms");
+                });
+
+            modelBuilder.Entity("HotelProject.EntityLayer.Concrete.SendMessage", b =>
+                {
+                    b.Property<int>("SendMessageID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("ReceiverMail")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("ReceiverName")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("SenderMail")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("SenderName")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("SendMessageID");
+
+                    b.ToTable("SendMessages");
                 });
 
             modelBuilder.Entity("HotelProject.EntityLayer.Concrete.Service", b =>

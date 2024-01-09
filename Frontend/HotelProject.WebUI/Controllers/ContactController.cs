@@ -5,7 +5,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using HotelProject.WebUI.Dtos.BookingDto;
-using HotelProject.WebUI.Dtos.ContactDto;
+using HotelProject.WebUI.Dtos.UserContactDto;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
@@ -35,6 +35,8 @@ namespace HotelProject.WebUI.Controllers
         public async Task<IActionResult> _SendMessage(CreateContactDto createContactDto)
         {
             createContactDto.Date = DateTime.Parse(DateTime.Now.ToShortDateString());
+            createContactDto.ReceiverMail = "mertayaar@gmail.com";
+            createContactDto.ReceiverName = "Admin";
             if (!ModelState.IsValid)
             {
                 return View("Index");

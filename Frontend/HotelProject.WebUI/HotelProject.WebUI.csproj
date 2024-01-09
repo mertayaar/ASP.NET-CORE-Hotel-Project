@@ -4,6 +4,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>bf99c169-ddc4-4a18-a589-944b1ed4b05e</UserSecretsId>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
@@ -23,6 +24,9 @@
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.9.0" />
+    <PackageReference Include="NETCore.MailKit" Version="2.1.0" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Dtos\" />
@@ -77,7 +81,17 @@
     <None Remove="Views\Contact\" />
     <None Remove="ViewComponents\Contact\" />
     <None Remove="Views\Shared\Components\_ContactCoverPartial\" />
-    <None Remove="Dtos\ContactDto\" />
+    <None Remove="Areas\Admin\Views\About\" />
+    <None Remove="Areas\Admin\Views\Room\" />
+    <None Remove="Areas\Admin\Dtos\RoomDto\" />
+    <None Remove="Areas\Admin\Dtos\GuestDto\" />
+    <None Remove="Areas\Admin\Views\Guest\" />
+    <None Remove="Areas\Admin\ValidationRules\" />
+    <None Remove="Areas\Admin\Views\Contact\" />
+    <None Remove="Dtos\UserContactDto\" />
+    <None Remove="Areas\Admin\Dtos\ContactDto\" />
+    <None Remove="Areas\Admin\Models\Mail\" />
+    <None Remove="Areas\Admin\Views\Mail\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\Template\" />
@@ -140,7 +154,20 @@
     <Folder Include="Views\Contact\" />
     <Folder Include="ViewComponents\Contact\" />
     <Folder Include="Views\Shared\Components\_ContactCoverPartial\" />
-    <Folder Include="Dtos\ContactDto\" />
+    <Folder Include="Areas\Admin\Views\About\" />
+    <Folder Include="Areas\Admin\Views\Room\" />
+    <Folder Include="Areas\Admin\Dtos\RoomDto\" />
+    <Folder Include="Areas\Admin\Dtos\GuestDto\" />
+    <Folder Include="Areas\Admin\Views\Guest\" />
+    <Folder Include="Areas\Admin\ValidationRules\" />
+    <Folder Include="Areas\Admin\Views\Contact\" />
+    <Folder Include="wwwroot\Template\AdminTemplate\css\" />
+    <Folder Include="Dtos\UserContactDto\" />
+    <Folder Include="Areas\Admin\Dtos\ContactDto\" />
+    <Folder Include="Areas\Admin\Models\Mail\" />
+    <Folder Include="Areas\Admin\Views\Mail\" />
+    <Folder Include="wwwroot\Template\AdminTemplate\js\counterup\" />
+    <Folder Include="wwwroot\Template\AdminTemplate\css\animate\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\Template\" />
@@ -150,6 +177,8 @@
     <Content Remove="wwwroot\images\staff\" />
     <Content Remove="wwwroot\images\about\" />
     <Content Remove="wwwroot\images\carousel\" />
+    <Content Remove="wwwroot\Template\AdminTemplate\js\counterup\" />
+    <Content Remove="wwwroot\Template\AdminTemplate\css\animate\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\ApiConsume\HotelProject.EntityLayer\HotelProject.EntityLayer.csproj">

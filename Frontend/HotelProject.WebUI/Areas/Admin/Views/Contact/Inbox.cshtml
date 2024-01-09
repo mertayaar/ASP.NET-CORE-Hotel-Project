@@ -1,0 +1,31 @@
+@model List<InboxContactDto>
+@{
+    ViewData["Title"] = "Inbox";
+    Layout = "~/Areas/Admin/Views/AdminLayout/_AdminLayout.cshtml";
+    int count = 0;
+}
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Mail</th>
+        <th>Subject</th>
+        <th>Details</th>
+        <th>Delete</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        count++;
+        <tr>
+            <th>@count</th>
+            <td>@item.SenderName</td>
+            <td>@item.SenderMail</td>
+            <td>@item.Subject</td>
+            <td><a href="@Url.Action("MessageDetails", "Contact", new { id = item.ContactID })" class="btn btn-outline-warning">Details</a></td>
+            <td><a href="@Url.Action("DeleteMessage", "Contact", new { id = item.ContactID })" class="btn btn-outline-danger">Delete</a></td>
+
+        </tr>
+    }
+</table>
+<a href="/Admin/Contact/AddSendMessage/" class="btn btn-outline-info">Send New Message </a>

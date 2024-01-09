@@ -1,0 +1,27 @@
+@model GetMessageByIDDto
+@{
+    ViewData["Title"] = "AddSendMessage";
+    Layout = "~/Areas/Admin/Views/AdminLayout/_AdminLayout.cshtml";
+}
+ 
+<form method="post">
+<div class="form-floating">
+    <input type="text" class="form-control" name="ReceiverName" value="@Model.SenderName" id="name" placeholder="Name" readonly>
+</div>
+<br />
+<div class="form-floating">
+    <input type="text" class="form-control" name="ReceiverMail"  value="@Model.SenderMail" id="mail" placeholder="Receiver Mail" readonly>
+</div>
+<br />
+<div class="form-floating">
+    <input type="text" class="form-control" name="Subject" value="@Model.Subject" id="subject" placeholder="Subject" readonly>
+
+</div>
+<br />
+<div class="form-floating">
+    <textarea type="text" class="form-control" name="Message" id="message" placeholder="Message"></textarea>
+</div>
+<br />
+<button class="btn btn-outline-warning">Send</button>
+<a href="/Admin/Contact/Inbox/" class="btn btn-outline-secondary">Back</a>
+</form>

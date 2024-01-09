@@ -1,0 +1,42 @@
+@model UpdateAboutDto
+@{
+    ViewData["Title"] = "UpdateAbout";
+    Layout = "~/Areas/Admin/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<form method="post">
+    <input type="hidden" asp-for="AboutUsID" />
+
+    <label for="ShortTitle">Short Title:</label>
+    <input type="text" asp-for="ShortTitle" class="form-control" placeholder="Short Title" required />
+    <span asp-validation-for="ShortTitle" class="text-danger"></span>
+    <br />
+
+    <label for="Title">Title:</label>
+    <input type="text" asp-for="Title" class="form-control" placeholder="Title" required />
+    <span asp-validation-for="Title" class="text-danger"></span>
+    <br />
+
+
+    <label for="Content">Content:</label>
+    <textarea asp-for="Content" class="form-control" placeholder="Content" required></textarea>
+    <span asp-validation-for="Content" class="text-danger"></span>
+    <br />
+
+    <label asp-for="RoomCount">Room Count:</label>
+    <input type="text" asp-for="RoomCount" class="form-control" placeholder="Room Count" />
+    <span asp-validation-for="RoomCount" class="text-danger"></span>
+    <br />
+
+    <label asp-for="StaffCount">Staff Count:</label>
+    <input type="text" asp-for="StaffCount" class="form-control" placeholder="Staff Count" />
+    <span asp-validation-for="StaffCount" class="text-danger"></span>
+    <br />
+
+    <label asp-for="ClientCount">Client Count:</label>
+    <input type="text" asp-for="ClientCount" class="form-control" placeholder="Client Count" />
+    <span asp-validation-for="ClientCount" class="text-danger"></span>
+    <br />
+    <button class="btn btn-outline-primary">Submit</button>
+    <a href="/Admin/About/Index/" class="btn btn-outline-secondary">Back</a>
+</form>

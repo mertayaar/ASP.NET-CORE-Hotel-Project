@@ -1,0 +1,26 @@
+@model GetMessageByIDDto
+@{
+    ViewData["Title"] = "MessageDetails";
+    Layout = "~/Areas/Admin/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+    <input type="hidden" asp-for="ContactID" />
+    <div class="form-floating">
+        <input type="text" class="form-control" asp-for="SenderName" id="name" placeholder="Name" readonly>
+    </div>
+    <br />
+    <div class="form-floating">
+        <input type="text" class="form-control" asp-for="SenderMail" id="mail" placeholder="Mail" readonly>
+    </div>
+    <br />
+    <div class="form-floating">
+        <input type="text" class="form-control" asp-for="Subject" id="subject" placeholder="Subject" readonly>
+
+    </div>
+    <br />
+    <div class="form-floating">
+        <textarea type="text" class="form-control" asp-for="Message" id="message" placeholder="Message" readonly></textarea>
+    </div>
+    <br />
+    <a href="@Url.Action("AddSendMessage", "Contact",  new { id = Model.ContactID })" class="btn btn-outline-warning">Reply</a>
+    <a href="/Admin/Contact/Inbox/" class="btn btn-outline-secondary">Back</a>

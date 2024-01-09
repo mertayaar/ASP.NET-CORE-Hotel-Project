@@ -1,0 +1,29 @@
+@model UpdateGuestDto
+@{
+    ViewData["Title"] = "UpdateGuest";
+    Layout = "~/Areas/Admin/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<form method="post">
+    <input type="hidden" asp-for="GuestID" />
+    <div class="form-floating">
+        <input type="text" class="form-control" asp-for="Name" id="name" placeholder="Name">
+        <label for="name">Name</label>
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <br />
+    <div class="form-floating">
+        <input type="text" class="form-control" asp-for="Surname" id="surname" placeholder="Surname">
+        <label for="surname">Surname</label>
+        <span asp-validation-for="Surname" class="text-danger"></span>
+    </div>
+    <br />
+    <div class="form-floating">
+        <textarea type="text" class="form-control" asp-for="City" id="city" placeholder="City"></textarea>
+        <label for="city">City</label>
+        <span asp-validation-for="City" class="text-danger"></span>
+    </div>
+    <br />
+    <button class="btn btn-outline-primary">Submit</button>
+    <a href="/Admin/Guest/Index/" class="btn btn-outline-secondary">Back</a>
+</form>

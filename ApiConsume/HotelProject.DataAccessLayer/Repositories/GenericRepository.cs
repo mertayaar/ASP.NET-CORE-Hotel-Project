@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq.Expressions;
 using HotelProject.DataAccessLayer.Abstract;
 using HotelProject.DataAccessLayer.Concrete;
 
@@ -18,6 +19,12 @@ namespace HotelProject.DataAccessLayer.Repositories
         {
             _context.Remove(t);
             _context.SaveChanges();
+        }
+
+        public List<T> GetByFilter(Expression<Func<T, bool>> filter)
+        {
+            using var c = new Context();
+            return c.Set<T>().Where(filter).ToList();
         }
 
         public T? GetByID(int id)

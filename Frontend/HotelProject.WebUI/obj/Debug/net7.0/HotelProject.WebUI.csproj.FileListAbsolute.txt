@@ -248,3 +248,10 @@
 /Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 /Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/bin/Debug/net7.0/HotelProject.DataAccessLayer.dll
 /Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/bin/Debug/net7.0/HotelProject.DataAccessLayer.pdb
+/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/bin/Debug/net7.0/FluentValidation.dll
+/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/bin/Debug/net7.0/FluentValidation.AspNetCore.dll
+/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/bin/Debug/net7.0/FluentValidation.DependencyInjectionExtensions.dll
+/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/obj/Debug/net7.0/HotelProject.WebUI.MvcApplicationPartsAssemblyInfo.cs
+/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/bin/Debug/net7.0/MailKit.dll
+/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/bin/Debug/net7.0/MimeKit.dll
+/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/bin/Debug/net7.0/NETCore.MailKit.dll

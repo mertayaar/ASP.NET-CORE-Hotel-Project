@@ -1,0 +1,58 @@
+@model UpdateRoomDto
+@{
+    ViewData["Title"] = "UpdateRoom";
+    Layout = "~/Areas/Admin/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<form method="post">
+    <input type="hidden" asp-for="RoomID" />
+    <div class="form-floating">
+        <input type="text" class="form-control" asp-for="RoomNumber" id="roomNumber" placeholder="Room Number" required>
+        <label for="roomNumber">Room Number</label>
+        <span asp-validation-for="RoomNumber" class="text-danger"></span>
+    </div>
+    <br />
+    <div class="form-floating">
+        <input type="text" class="form-control" asp-for="Title" id="title" placeholder="Title" required>
+        <label for="title">Title</label>
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+    <br />
+    <div class="form-floating">
+        <textarea type="text" class="form-control" asp-for="Description" id="description" placeholder="Description" required></textarea>
+        <label for="description">Description</label>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    <br />
+    <input type="text" asp-for="RoomCoverImage" class="form-control" placeholder="Image URL" />
+    <br />
+
+    <div class="form-floating">
+        <input type="text" class="form-control" asp-for="BathCount" id="BathCount" placeholder="Bath Count" required>
+        <label for="BathCount">Bath Count</label>
+        <span asp-validation-for="BathCount" class="text-danger"></span>
+    </div>
+    <br />
+    <div class="form-floating">
+        <input type="text" class="form-control" asp-for="BedCount" id="bedCount" placeholder="Bed Count" required>
+        <label for="bedCount">Bed Count</label>
+        <span asp-validation-for="BedCount" class="text-danger"></span>
+    </div>
+    <br />
+    <div class="form-group">
+        <label for="Wifi">Wifi</label>
+        <select asp-for="Wifi" class="form-control">
+            <option value="true">True</option>
+            <option value="false">False</option>
+        </select>
+        <span asp-validation-for="Wifi" class="text-danger"></span>
+    </div>
+    <div class="form-floating">
+        <input type="text" class="form-control" asp-for="Stars" id="stars" placeholder="Stars" required>
+        <label for="BathCostarsunt">Stars</label>
+        <span asp-validation-for="Stars" class="text-danger"></span>
+    </div>
+    <br />
+    <button class="btn btn-outline-primary">Submit</button>
+    <a href="/Admin/Room/Index/" class="btn btn-outline-secondary">Back</a>
+</form>

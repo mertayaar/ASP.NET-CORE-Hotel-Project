@@ -60,7 +60,6 @@ namespace HotelProject.WebUI.Areas.Admin.Controllers
 
                     return RedirectToAction("Index");
                 }
-                var errorContent = await response.Content.ReadAsStringAsync();
                 return View();
             }
         }
