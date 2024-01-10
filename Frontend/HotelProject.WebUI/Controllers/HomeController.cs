@@ -1,9 +1,11 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using HotelProject.WebUI.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace HotelProject.WebUI.Controllers;
 
+[AllowAnonymous]
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;

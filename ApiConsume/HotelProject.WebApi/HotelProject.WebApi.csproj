@@ -44,9 +44,11 @@
   <ItemGroup>
     <None Remove="Controllers\" />
     <None Remove="Mapping\" />
+    <None Remove="filesFromUser\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Mapping\" />
+    <Folder Include="filesFromUser\" />
   </ItemGroup>
 </Project>

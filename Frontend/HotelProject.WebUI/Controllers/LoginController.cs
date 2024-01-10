@@ -4,11 +4,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using HotelProject.EntityLayer.Concrete;
 using HotelProject.WebUI.Dtos.LoginDto;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HotelProject.WebUI.Controllers
 {
+    [AllowAnonymous]
     public class LoginController : Controller
     {
         private readonly SignInManager<AppUser> _singInManager;
@@ -32,7 +34,11 @@ namespace HotelProject.WebUI.Controllers
                 var result = await _singInManager.PasswordSignInAsync(loginUserDto.UserName, loginUserDto.Password, false, false);
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("Index", "Staff");
+                    if (loginUserDto.UserName.Equals("Admin"))
+                    {
+                        return RedirectToAction("Index", "Staff", new { area = "Admin" });
+                    }
+                    return RedirectToAction("Index", "Default");
                 }
                 return View();
             }

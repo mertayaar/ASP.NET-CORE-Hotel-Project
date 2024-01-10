@@ -92,6 +92,8 @@
     <None Remove="Areas\Admin\Dtos\ContactDto\" />
     <None Remove="Areas\Admin\Models\Mail\" />
     <None Remove="Areas\Admin\Views\Mail\" />
+    <None Remove="Areas\Admin\Views\FileUpload\" />
+    <None Remove="Views\ErrorPage\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\Template\" />
@@ -168,6 +170,9 @@
     <Folder Include="Areas\Admin\Views\Mail\" />
     <Folder Include="wwwroot\Template\AdminTemplate\js\counterup\" />
     <Folder Include="wwwroot\Template\AdminTemplate\css\animate\" />
+    <Folder Include="wwwroot\imagesFromUser\" />
+    <Folder Include="Areas\Admin\Views\FileUpload\" />
+    <Folder Include="Views\ErrorPage\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\Template\" />
@@ -179,6 +184,7 @@
     <Content Remove="wwwroot\images\carousel\" />
     <Content Remove="wwwroot\Template\AdminTemplate\js\counterup\" />
     <Content Remove="wwwroot\Template\AdminTemplate\css\animate\" />
+    <Content Remove="wwwroot\imagesFromUser\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\ApiConsume\HotelProject.EntityLayer\HotelProject.EntityLayer.csproj">

@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets/Template/AdminTemplate/css/animate/animate.min.css"
     },
     {
+      "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/Template/AdminTemplate/css/bootstrap-social.css",
+      "PackagePath": "staticwebassets/Template/AdminTemplate/css/bootstrap-social.css"
+    },
+    {
       "Id": "/Users/mertayaar/Projects/HotelProject/Frontend/HotelProject.WebUI/wwwroot/Template/AdminTemplate/css/style.css",
       "PackagePath": "staticwebassets/Template/AdminTemplate/css/style.css"
     },
